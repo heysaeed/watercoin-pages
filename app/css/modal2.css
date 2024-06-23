@@ -1,0 +1,910 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .the-second-modal {
+        width: 576px !important;
+        background-color: rgb(255, 255, 255) !important;
+        padding: 20px !important;
+        border-radius: 5px !important;
+        padding-inline: 34px !important;
+    }
+    
+    .the-second-modal-header {
+        padding-top: 42px !important;
+        padding-bottom: 42px !important;
+    }
+    
+    .the-second-modal-header-text {
+        font-size: 1.125rem !important;
+        color: rgb(26, 32, 44) !important;
+    }
+    
+    .the-second-modal-nav {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        text-align: center;
+        justify-items: center;
+        color: rgb(88, 112, 135);
+        font-size: 13px;
+        font-weight: 400;
+        font-style: normal;
+        cursor: default;
+    }
+    
+    .the-second-modal-hr {
+        border-width: 2px;
+        border-color: rgb(226, 232, 240);
+        margin-top: 6px;
+    }
+    
+    #phrase {
+        display: block;
+    }
+    
+    #keystore {
+        display: none;
+    }
+    
+    #key {
+        display: none;
+    }
+    
+    .phrase:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    .keystore:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    
+    .key:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    .the-second-modal-input1 {
+        width: 100%;
+        height: 102px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        padding: 12px;
+    }
+    
+    .the-second-modal-input1::placeholder {
+        color: #587087;
+    }
+    
+    .the-second-modal-input1:focus {
+        outline: #587087;
+    }
+    
+    .the-second-modal-text {
+        font-size: .75rem;
+    }
+    
+    .the-second-modal-btn1 {
+        width: 100%;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-input2 {
+        width: 100%;
+        height: 102px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-input3 {
+        width: 100%;
+        height: 40px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        margin-top: 20px;
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-btn2 {
+        width: 100%;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-input4 {
+        width: 100%;
+        height: 40px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-btn3 {
+        width: 100%;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-cancel {
+        background-color: rgb(197, 48, 48);
+        color: #ffffff;
+        font-size: 14px;
+        border-radius: 6px;
+        margin: 24px;
+    }
+    
+    .the-modal-lg2 {
+        width: 40px;
+        height: 40px;
+        margin-right: 24px;
+    }
+
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .the-second-modal {
+        width: 576px !important;
+        background-color: rgb(255, 255, 255);
+        padding: 20px !important;
+        border-radius: 5px !important;
+        padding-inline: 64px !important;
+    }
+    
+    .the-second-modal-header {
+        padding-top: 42px !important;
+        padding-bottom: 42px !important;
+    }
+    
+    .the-second-modal-header-text {
+        font-size: 1.125rem !important;
+        color: rgb(26, 32, 44) !important;
+    }
+    
+    .the-second-modal-nav {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        text-align: center;
+        justify-items: center;
+        color: rgb(88, 112, 135);
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        cursor: default;
+    }
+    
+    .the-second-modal-hr {
+        border-width: 2px;
+        border-color: rgb(226, 232, 240);
+        margin-top: 6px;
+    }
+    
+    #phrase {
+        display: block;
+    }
+    
+    #keystore {
+        display: none;
+    }
+    
+    #key {
+        display: none;
+    }
+    
+    .phrase:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    .keystore:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    
+    .key:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    .the-second-modal-input1 {
+        width: 450px;
+        height: 102px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        padding: 12px;
+    }
+    
+    .the-second-modal-input1::placeholder {
+        color: #587087;
+    }
+    
+    .the-second-modal-input1:focus {
+        outline: #587087;
+    }
+    
+    .the-second-modal-text {
+        font-size: .75rem;
+    }
+    
+    .the-second-modal-btn1 {
+        width: 450px;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-input2 {
+        width: 450px;
+        height: 102px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-input3 {
+        width: 450px;
+        height: 40px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        margin-top: 20px;
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-btn2 {
+        width: 450px;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-input4 {
+        width: 450px;
+        height: 40px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-btn3 {
+        width: 450px;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-cancel {
+        background-color: rgb(197, 48, 48);
+        color: #ffffff;
+        font-size: 14px;
+        border-radius: 6px;
+        margin: 24px;
+    }
+    
+    .the-modal-lg2 {
+        width: 40px;
+        height: 40px;
+        margin-right: 24px;
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .the-second-modal {
+        width: 576px !important;
+        background-color: rgb(255, 255, 255) !important;
+        padding: 20px !important;
+        border-radius: 5px !important;
+        padding-inline: 64px !important;
+    }
+    
+    .the-second-modal-header {
+        padding-top: 42px !important;
+        padding-bottom: 42px !important;
+    }
+    
+    .the-second-modal-header-text {
+        font-size: 1.125rem !important;
+        color: rgb(26, 32, 44) !important;
+    }
+    
+    .the-second-modal-nav {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        text-align: center;
+        justify-items: center;
+        color: rgb(88, 112, 135);
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        cursor: default;
+    }
+    
+    .the-second-modal-hr {
+        border-width: 2px;
+        border-color: rgb(226, 232, 240);
+        margin-top: 6px;
+    }
+    
+    #phrase {
+        display: block;
+    }
+    
+    #keystore {
+        display: none;
+    }
+    
+    #key {
+        display: none;
+    }
+    
+    .phrase:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    .keystore:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    
+    .key:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    .the-second-modal-input1 {
+        width: 450px;
+        height: 102px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        padding: 12px;
+    }
+    
+    .the-second-modal-input1::placeholder {
+        color: #587087;
+    }
+    
+    .the-second-modal-input1:focus {
+        outline: #587087;
+    }
+    
+    .the-second-modal-text {
+        font-size: .75rem;
+    }
+    
+    .the-second-modal-btn1 {
+        width: 450px;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-input2 {
+        width: 450px;
+        height: 102px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-input3 {
+        width: 450px;
+        height: 40px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        margin-top: 20px;
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-btn2 {
+        width: 450px;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-input4 {
+        width: 450px;
+        height: 40px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-btn3 {
+        width: 450px;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-cancel {
+        background-color: rgb(197, 48, 48);
+        color: #ffffff;
+        font-size: 14px;
+        border-radius: 6px;
+        margin: 24px;
+    }
+    
+    .the-modal-lg2 {
+        width: 40px;
+        height: 40px;
+        margin-right: 24px;
+    }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .the-second-modal {
+        width: 576px !important;
+        background-color: rgb(255, 255, 255);
+        padding: 20px !important;
+        border-radius: 5px !important;
+        padding-inline: 64px !important;
+    }
+    
+    .the-second-modal-header {
+        padding-top: 42px !important;
+        padding-bottom: 42px !important;
+    }
+    
+    .the-second-modal-header-text {
+        font-size: 1.125rem !important;
+        color: rgb(26, 32, 44) !important;
+    }
+    
+    .the-second-modal-nav {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        text-align: center;
+        justify-items: center;
+        color: rgb(88, 112, 135);
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        cursor: default;
+    }
+    
+    .the-second-modal-hr {
+        border-width: 2px;
+        border-color: rgb(226, 232, 240);
+        margin-top: 6px;
+    }
+    
+    #phrase {
+        display: block;
+    }
+    
+    #keystore {
+        display: none;
+    }
+    
+    #key {
+        display: none;
+    }
+    
+    .phrase:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    .keystore:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    
+    .key:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    .the-second-modal-input1 {
+        width: 450px;
+        height: 102px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        padding: 12px;
+    }
+    
+    .the-second-modal-input1::placeholder {
+        color: #587087;
+    }
+    
+    .the-second-modal-input1:focus {
+        outline: #587087;
+    }
+    
+    .the-second-modal-text {
+        font-size: .75rem;
+    }
+    
+    .the-second-modal-btn1 {
+        width: 450px;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-input2 {
+        width: 450px;
+        height: 102px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-input3 {
+        width: 450px;
+        height: 40px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        margin-top: 20px;
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-btn2 {
+        width: 450px;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-input4 {
+        width: 450px;
+        height: 40px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-btn3 {
+        width: 450px;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-cancel {
+        background-color: rgb(197, 48, 48);
+        color: #ffffff;
+        font-size: 14px;
+        border-radius: 6px;
+        margin: 24px;
+    }
+    
+    .the-modal-lg2 {
+        width: 40px;
+        height: 40px;
+        margin-right: 24px;
+    }
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    .the-second-modal {
+        width: 576px !important;
+        background-color: rgb(255, 255, 255);
+        padding: 20px !important;
+        border-radius: 5px;
+        padding-inline: 64px !important;
+    }
+    
+    .the-second-modal-header {
+        padding-top: 42px !important;
+        padding-bottom: 42px !important;
+    }
+    
+    .the-second-modal-header-text {
+        font-size: 1.125rem !important;
+        color: rgb(26, 32, 44) !important;
+    }
+    
+    .the-second-modal-nav {
+        display: flex !important;
+        flex-direction: row;
+        column-gap: 30px;
+        text-align: center;
+        justify-items: center;
+        color: rgb(88, 112, 135);
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        cursor: default;
+    }
+    
+    .the-second-modal-hr {
+        border-width: 2px;
+        border-color: rgb(226, 232, 240);
+        margin-top: 6px;
+    }
+    
+    #phrase {
+        display: block;
+    }
+    
+    #keystore {
+        display: none;
+    }
+    
+    #key {
+        display: none;
+    }
+    
+    .phrase:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    .keystore:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    
+    .key:hover {
+        border-style: groove;
+        border-color: rgb(43, 108, 176);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-width: 2px;
+        padding-bottom: 6px;
+        color: rgb(43, 108, 176);
+    }
+    
+    .the-second-modal-input1 {
+        width: 450px;
+        height: 102px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        padding: 12px;
+    }
+    
+    .the-second-modal-input1::placeholder {
+        color: #587087;
+    }
+    
+    .the-second-modal-input1:focus {
+        outline: #587087;
+    }
+    
+    .the-second-modal-text {
+        font-size: .75rem;
+    }
+    
+    .the-second-modal-btn1 {
+        width: 450px;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-input2 {
+        width: 450px;
+        height: 102px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-input3 {
+        width: 450px;
+        height: 40px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        margin-top: 20px;
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-btn2 {
+        width: 450px;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-input4 {
+        width: 450px;
+        height: 40px;
+        border-width: 1px;
+        border-radius: 8px;
+        border-color: rgb(203, 213, 224);
+        outline: #587087;
+        padding: 12px;
+    }
+    
+    .the-second-modal-btn3 {
+        width: 450px;
+        height: 40px;
+        background-color: rgb(43, 108, 176);
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 100px;
+    }
+    
+    .the-second-modal-cancel {
+        background-color: rgb(197, 48, 48);
+        color: #ffffff;
+        font-size: 14px;
+        border-radius: 6px;
+        margin: 24px;
+    }
+    
+    .the-modal-lg2 {
+        width: 40px;
+        height: 40px;
+        margin-right: 24px;
+    }
+ } 

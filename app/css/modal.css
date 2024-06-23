@@ -1,0 +1,111 @@
+#id01 {
+    z-index: 100;
+    margin-top: 150px;
+  }
+  #id02 {
+    z-index: 5000;
+    color: #000 !important;
+
+  }
+
+  #id03 {
+    z-index: 10000;
+  }
+
+  #retry-btn {
+    display: none;
+  }
+  
+  .the-modal {
+    width: 420px !important;
+    border-radius: 18px;
+    margin-top: 100px;
+  }
+  
+  .the-modal-header {
+    background-color: rgba(242, 242, 242, 0.94);
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+  }
+  
+  .the-modal-back {
+    font-size: 16px;
+    color: rgb(33, 114, 229);
+    margin-top: 18px;
+  }
+  
+  .the-modal-x {
+    font-size: 24px;
+    margin-right: 18px;
+    /* margin-top: 6px; */
+  }
+  
+  .the-modal-body {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: #fd4040;
+    border-radius: 12px;
+    border-width: 1px;
+    margin-top: 24px;
+    padding-inline: 0 32px;
+  }
+  
+  .the-modal-body2 {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border: 0 solid rgb(64, 68, 79);
+    padding-inline: 24px;
+    border-radius: 12px;
+    border-width: 1px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .the-modal-body-item1{
+    color: #fd4040;
+    font-size: 16px;
+    padding-left: 24px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  
+  .the-modal-body-item2 {
+    margin-top: 12px;
+    margin-left: 24px;
+    background-color: rgb(86, 90, 105);
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    border-radius: 8px;
+    padding: .5rem;
+  }
+  
+  .the-modal-body-item3 {
+    color: rgb(86 77 77);
+    font-size: 1rem;
+    padding-top: 12px;
+  }
+  
+  .the-modal-body-item4 {
+    color: rgb(86 77 77);
+    font-size: 12px;
+    margin-left: -36px;
+    padding-top: 24px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    /* padding-right: 102px; */
+  }
+  
+  .the-modal-body-item5 {
+    position: relative;
+    right: -102px;
+    top: 6px;
+  }
+  
+  .the-modal-lg {
+    width: 40px;
+    height: 40px;
+    margin-left: -40px;
+  }
